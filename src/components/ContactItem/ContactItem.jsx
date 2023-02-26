@@ -8,7 +8,7 @@ export const ContactItem = ({ info }) => {
   return (
     <Item>
       <Name>{info.name}</Name>
-      <Number>{info.phone} </Number>
+      <Number>{info.number} </Number>
 
       <Button
         type="button"
@@ -27,6 +27,6 @@ ContactItem.propTypes = {
     createdAt: PropTypes.string,
     id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    phone: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
   }).isRequired,
 };

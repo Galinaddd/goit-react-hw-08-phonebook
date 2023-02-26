@@ -23,8 +23,8 @@ export const ContactsPage = () => {
       <ContactForm />
       <h2>Contacts</h2>
       <Filter />
-      <ContactList /> */} /*{' '}
-      {isLoading && !error && <b>Request in progress...</b>}*/
+      <ContactList />
+      {isLoading && !error && <b>Request in progress...</b>}
     </div>
   );
 };

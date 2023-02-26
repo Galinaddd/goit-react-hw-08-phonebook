@@ -14,7 +14,7 @@ export const ContactForm = () => {
 
     const newContact = {
       name,
-      phone: number,
+      number,
     };
     const NameNornalized = name.toLowerCase();
     const IsInContacts = contacts.some(
