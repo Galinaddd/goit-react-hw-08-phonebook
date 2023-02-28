@@ -18,7 +18,6 @@ export const ContactsPage = () => {
 
   return (
     <div>
-      <p>ContactsPage</p>
       <h1>Phonebook</h1>
       <ContactForm />
       <h2>Contacts</h2>

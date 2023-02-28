@@ -5,6 +5,7 @@ import { logOut } from 'redux/auth/operation';
 export const UserMenu = () => {
   const dispatch = useDispatch();
   const user = useSelector(selectUser);
+
   return (
     <div>
       <p>Welcome, {user.name}</p>

@@ -2,7 +2,6 @@ import { RegistrationForm } from '../components/RegistrationForm/RegistrationFor
 export const RegisterPage = () => {
   return (
     <>
-      <h1>RegisterPage</h1>
       <RegistrationForm />
     </>
   );
