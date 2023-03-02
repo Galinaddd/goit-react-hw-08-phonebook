@@ -6,5 +6,6 @@ export const List = styled.ul`
   width: 50%;
   list-style-type: none;
   text-align: left;
-  border: 2px dotted #2a2a2a;
+  background-color: #f0e2f4;
+  border: 2px dotted #c920fa;
 `;

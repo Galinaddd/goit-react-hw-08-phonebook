@@ -1,4 +1,4 @@
-import { Input, Label, AuthForm } from './RegistrationForm.styled';
+import { Input, Label, AuthForm, Button } from './RegistrationForm.styled';
 import { register } from 'redux/auth/operation';
 import { Formik } from 'formik';
 import { useDispatch } from 'react-redux';
@@ -40,7 +40,7 @@ export const RegistrationForm = () => {
           Password
           <Input type="password" name="password" required />
         </Label>
-        <button type="submit">Register</button>
+        <Button type="submit">Register</Button>
       </AuthForm>
     </Formik>
   );

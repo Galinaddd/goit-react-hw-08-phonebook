@@ -1,7 +1,7 @@
 import { Formik } from 'formik';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectContacts } from 'redux/contacts/selectors';
-import { Label, AddContactForm, Input } from './ContactForm.styled';
+import { Label, AddContactForm, Input, Button } from './ContactForm.styled';
 import { addContact } from 'redux/contacts/operation';
 
 export const ContactForm = () => {
@@ -58,7 +58,7 @@ export const ContactForm = () => {
             required
           />
         </Label>
-        <button type="submit">Add Contacts</button>
+        <Button type="submit">Add Contacts</Button>
       </AddContactForm>
     </Formik>
   );

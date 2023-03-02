@@ -18,3 +18,9 @@ export const Label = styled.label`
 export const Input = styled(Field)`
   display: block;
 `;
+
+export const Button = styled.button`
+  color: #c920fa;
+  border-color: #c920fa;
+  background-color: #f0e2f4;
+`;

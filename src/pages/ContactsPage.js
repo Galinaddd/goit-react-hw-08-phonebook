@@ -17,13 +17,13 @@ export const ContactsPage = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <main style={{ textAlign: 'center' }}>
       <h1>Phonebook</h1>
       <ContactForm />
       <h2>Contacts</h2>
       <Filter />
       <ContactList />
       {isLoading && !error && <b>Request in progress...</b>}
-    </div>
+    </main>
   );
 };

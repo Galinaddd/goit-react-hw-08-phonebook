@@ -5,6 +5,7 @@ export const Item = styled.li`
   justify-content: space-between;
   align-items: center;
   padding: 3px;
+  color: inherit;
 `;
 export const Name = styled.span`
   font-style: italic;
@@ -18,7 +19,10 @@ export const Number = styled.span`
 `;
 
 export const Button = styled.button`
-  color: #2a2a2a;
+  color: #c920fa;
+  border-color: #c920fa;
+  background-color: #f0e2f4;
+
   margin-left: 30px;
   :hover {
     color: #ffffff;
