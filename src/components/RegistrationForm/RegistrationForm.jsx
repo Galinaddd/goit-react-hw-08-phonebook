@@ -6,7 +6,7 @@ export const RegistrationForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = values => {
-    console.log('values', values);
+    
 
     const newUser = {
       name: values.userName,
@@ -14,7 +14,7 @@ export const RegistrationForm = () => {
       password: values.password,
     };
 
-    console.log('newUser', newUser);
+    
     dispatch(register(newUser));
   };
 

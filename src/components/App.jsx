@@ -11,13 +11,10 @@ import { selectIsrefreshing } from 'redux/auth/selectors';
 import { RestrictedRoute } from './RestricyedRoute';
 import { PrivateRoute } from './PrivateRoute';
 
-// const Home = lazy(() => import('../pages/Home'));
-
 export const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-  
     dispatch(refreshCurrentUser());
   }, [dispatch]);
 
